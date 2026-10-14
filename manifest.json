@@ -1,0 +1,16 @@
+{
+  "name": "Cetak Rekap dan Invoice JPSO",
+  "short_name": "JPSO",
+  "description": "Cetak Rekap dan Invoice JPSO (PT Budi Inti Perkasa)",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#1f6feb",
+  "lang": "id",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
