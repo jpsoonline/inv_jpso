@@ -1,5 +1,5 @@
 /* Service worker Cetak Rekap dan Invoice JPSO. Naikkan nomor V jika ingin memaksa cache lama dibuang. */
-const V = 'jpso-v2';
+const V = 'jpso-v1';
 const PRE = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'firebase-config.js'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(V).then(c => Promise.all(PRE.map(u => c.add(u).catch(() => {})))).then(() => self.skipWaiting()));
